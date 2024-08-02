@@ -30,6 +30,7 @@ class PositionSelectionScreen extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 32.0, // 첫 번째 줄 텍스트 크기
                         color: Colors.black, // 텍스트 색상
+                        fontFamily: 'SEOLLEIM',
                       ),
                     ),
                     TextSpan(
@@ -41,6 +42,7 @@ class PositionSelectionScreen extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 16.0, // 두 번째 줄 텍스트 크기
                         color: Colors.black, // 텍스트 색상
+                        fontFamily: 'SEOLLEIM',
                       ),
                     ),
                   ],
@@ -69,6 +71,7 @@ class PositionSelectionScreen extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 32.0, // 첫 번째 줄 텍스트 크기
                         color: Colors.black, // 텍스트 색상
+                        fontFamily: 'SEOLLEIM',
                       ),
                     ),
                     TextSpan(
@@ -80,6 +83,7 @@ class PositionSelectionScreen extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 16.0, // 두 번째 줄 텍스트 크기
                         color: Colors.black, // 텍스트 색상
+                        fontFamily: 'SEOLLEIM',
                       ),
                     ),
                   ],

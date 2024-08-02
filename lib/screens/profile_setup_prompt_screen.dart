@@ -37,6 +37,7 @@ class ProfileSetupPromptScreen extends StatelessWidget {
                       color: Colors.black, // 텍스트 색깔
                       fontSize: 16.0, // 텍스트 크기
                       height: 2, // 줄 간격
+                      fontFamily: 'SEOLLEIM',
                     ),
                     textAlign: TextAlign.center, // 텍스트 중앙 정렬
                   ),
@@ -54,7 +55,10 @@ class ProfileSetupPromptScreen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(12), // 버튼 모서리 반경
                       ),
                     ),
-                    child: Text('프로필 설정 시작하기'),
+                    child: Text('프로필 설정 시작하기',
+                    style: TextStyle(
+                      fontFamily: 'SEOLLEIM',
+                    ),),
                   ),
                 ],
               ),
