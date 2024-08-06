@@ -12,6 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, // DEBUG 플래그 삭제
+      themeMode: ThemeMode.light, // 항상 밝은 테마 사용
       initialRoute: '/',
       routes: {
         '/': (context) => SignUpScreen(),
