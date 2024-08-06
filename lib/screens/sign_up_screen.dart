@@ -33,6 +33,7 @@ class SignUpScreen extends StatelessWidget {
                 Navigator.pushNamed(context, '/positionSelection');
               },
               child: Text('회원가입 없이 둘러보기'),
+              //test
             ),
           ],
         ),
