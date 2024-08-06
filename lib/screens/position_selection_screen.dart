@@ -72,9 +72,13 @@ class PositionSelectionScreen extends StatelessWidget {
                         fontSize: 32.0, // 첫 번째 줄 텍스트 크기
                         color: Colors.black, // 텍스트 색상
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         fontFamily: 'SEOLLEIM',
 >>>>>>> 0229c4d16d742a6dade71fab84af036d8cd2321e
+=======
+                        fontFamily: 'SEOLLEIM',
+>>>>>>> b4d0d72 (feature:font 추가 및 login 버튼 크기 조정)
                       ),
                     ),
                     TextSpan(

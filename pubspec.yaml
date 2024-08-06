@@ -21,6 +21,10 @@ flutter:
     - assets/babsae_gansa.png
     - assets/babsae_student.png
     - assets/kakao_symbol.png
+  fonts:
+    - family: SEOLLEIM
+      fonts:
+        - asset: assets/fonts/SEOLLEIMcool.ttf
   uses-material-design: true
 
   # see https://flutter.dev/custom-fonts/#from-packagesg
