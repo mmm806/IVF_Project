@@ -8,15 +8,15 @@ class SignUpScreen extends StatelessWidget {
       body: SafeArea(
         child: Padding(
           //좌우 여백-> padding 위젯 추가
-        padding: const EdgeInsets.symmetric(horizontal: 50.0), // 왼쪽과 오른쪽 여백 50px 추가
+        padding: const EdgeInsets.symmetric(horizontal: 30.0), // 왼쪽과 오른쪽 여백 50px 추가
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch, // 자식 위젯을 좌우로 늘림
             children: [
               SizedBox(height: 100), // 상하 여백
               Image.asset(
                 'assets/app_icon.png',
                 height: 90   ,
               ),
-<<<<<<< HEAD
             ),
             SizedBox(height: 40),
             ElevatedButton(
@@ -33,7 +33,6 @@ class SignUpScreen extends StatelessWidget {
               //test
             ),
           ],
-=======
               //카카오 소셜로그인
               SizedBox(height: 100),
               ElevatedButton(
@@ -44,7 +43,7 @@ class SignUpScreen extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color(0xFFFEE500), // 버튼 배경색
                   foregroundColor: Colors.black, // 버튼 텍스트 색깔
-                  padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 16.0), // 수평 패딩 설정
+                  padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 16.0), // 수평 패딩 설정
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12), // 버튼 모서리 반경
                   ),
@@ -79,11 +78,11 @@ class SignUpScreen extends StatelessWidget {
                 child: Text('회원가입 없이 둘러보기',
                   style: TextStyle(
                     fontSize: 16.0, // 글자 크기 설정
+                    fontFamily: 'SEOLLEIM',
                   ),),
               ),
             ],
           ),
->>>>>>> eba4566 (feature/화면구성)
         ),
       ),
     );
