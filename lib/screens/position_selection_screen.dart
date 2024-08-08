@@ -11,6 +11,7 @@ class PositionSelectionScreen extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () {
+
                 Navigator.pushNamed(context, '/profileSetup');
               },
               style: ElevatedButton.styleFrom(
